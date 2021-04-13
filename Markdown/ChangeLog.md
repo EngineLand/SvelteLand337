@@ -59,3 +59,55 @@ git commit -m "Estructura"
 <!-- Command -->
 
 ---
+
+## Dependencias Svelte
+
+<!-- Acciones -->
+
+### Acciones
+
+- Requerimos Svelte
+- Instalamos dependencias svelte
+- Instalamos dependencias babel
+
+- Descargamos y actualizamos dependencias
+- Configuramos Package.json
+
+**_Svelte_**
+
+svelte@latest
+svelte-loader
+
+**_Babel_**
+
+@babel/core
+babel-loader
+@babel/polyfill **
+@babel/preset-env **
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+npm i -S svelte@latest
+npm i -D svelte-loader
+*npm i -D svelte@latest svelte-loader*
+
+npm i -D @babel/core
+npm i -D babel-loader
+npm i -D @babel/polyfill
+npm i -D @babel/preset-env
+*npm i -D @babel/core babel-loader @babel/polyfill @babel/preset-env*
+
+npm install
+npm run dev
+
+git commit -m "Dependencias Svelte"
+```
+
+<!-- Command -->
+
+---
