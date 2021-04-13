@@ -226,8 +226,8 @@ git commit -m "Dependencias Complementarias"
 
 ### Acciones
 
-- Lncluimos el comando vinculado a webpack.init en package.json
-- Adaptamos Webpack/Webpack.init como la primera opcion de copiado de dependencias a public
+- Incluimos el comando vinculado a webpack.init en package.json
+- Adaptamos Webpack/Webpack.init como la opcion inicial para copiar dependencias a public
 
 <!-- Acciones -->
 
@@ -283,6 +283,32 @@ npm uninstall sirv-cli
 *npm uninstall rollup rollup-plugin-svelte @rollup/plugin-commonjs @rollup/plugin-node-resolve rollup-plugin-livereload rollup-plugin-terser rollup-plugin-css-only sirv-cli*
 
 git commit -m "Uninstall Rollup"
+
+```
+
+<!-- Command -->
+
+---
+
+## WebPack Config
+
+<!-- Acciones -->
+
+### Acciones
+
+- Incluimos el comando vinculado a webpack.dev en package.json
+- Incluimos el comando vinculado a webpack.config en package.json
+- Adaptamos webpack.config.js
+- Reorganizamos archivos y carpetas
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+git commit -m "Webpack Config"
 
 ```
 
