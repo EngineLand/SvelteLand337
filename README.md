@@ -1,105 +1,125 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# SVELTELAND - SVELTE - WEBPACK -BOOTSTRAP
 
 ---
 
-# svelte app
+<p align="center">
+  <a href="https://EngineLand.dev">
+    <img src="https://EngineLandTeam.github.io/dist/assets/image/T-15.png" width="400">
+  </a>
+</p>
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+<h1 align="center">
+  SvelteLand
+</h1>
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+SvelteLand es un marco web moderno para sitios web ultrarrápidos.
 
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
+- **Vaya más allá de los sitios web estáticos.** Obtenga todos los beneficios de los sitios web estáticos sin ninguno de los
+  limitaciones Los sitios de SvelteLand son aplicaciones React completamente funcionales para que pueda crear alta calidad,
+  aplicaciones web dinámicas, desde blogs hasta sitios de comercio electrónico y paneles de usuario.
+
+- **Utilice una pila moderna para cada sitio.** No importa de dónde provengan los datos, los sitios de SvelteLand son
+  construido usando React y GraphQL. Cree un flujo de trabajo uniforme para usted y su equipo, independientemente de
+  si los datos provienen del mismo backend.
+
+- **Cargar datos desde cualquier lugar.** SvelteLand extrae datos de cualquier fuente de datos, ya sea Markdown
+  archivos, un CMS sin cabeza como Contentful o WordPress, o una API REST o GraphQL. Usar complementos de origen
+  para cargar sus datos, luego desarrolle usando la interfaz GraphQL uniforme de SvelteLand.
+
+- **El rendimiento está horneado.** Ace sus auditorías de rendimiento de forma predeterminada. SvelteLand automatiza el código
+  división, optimización de imágenes, inclusión de estilos críticos, carga diferida y captación previa de recursos,
+  y más para garantizar que su sitio sea rápido, no se requiere ajuste manual.
+
+- **Hosting tan bataros que hasta gratis son.** Los sitios SvelteLand no requieren servidores, por lo que puedes alojar todo tu sitio
+  sitio en un CDN por una fracción del costo de un sitio prestado por un servidor. Muchos sitios de SvelteLand pueden ser
+  alojado completamente gratis en servicios como GitHub Pages y Netlify.
+
+## ¿Qué hay en este documento?
+
+- [Ponte en marcha en 5 minutos](#-levantate-y-corre-en-5-minutos)
+- [Aprende Svelte](#-aprende-svelte)
+- [Aprende Bootstrap](#-aprende-bootstrap)
+- [Cómo contribuir](#-como-contribuir)
+- [Licencia](#-licencia)
+- [Gracias a nuestros colaboradores](#-gracias)
+
+## 🚀 Ponte en marcha en 5 minutos
+
+Puede obtener un nuevo sitio de SvelteLand en funcionamiento en su entorno de desarrollo local en 5 minutos con estos cinco pasos:
+
+1. **Clonamos desde el Repositorio de SvelteLand**
+
+   ```shell
+   git clone https://github.com/EngineLand/SvelteLand.git SvelteLand
+   npm install
+   ```
+
+2. **Ingresamos a la carpeta SvelteLand**
+
+   ```shell
+   cd SvelteLand
+   ```
+
+3. **Descargamos todas las dependecias y paquetes.**
+
+   Registradas en el archivo Package.json
+
+   ```shell
+   npm install
+   ```
+
+4. **Copiamos archivos**
+
+   Desde node_modules a public. \*\*
+
+```shell
+npm run build:init
 ```
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+5. **Inicie el sitio en modo `desarrollo` y/o `servidor`.**
 
+   A continuación, inicializamos:
 
-## Get started
+   ```shell
+   npm run prod
+   o
+   npm run build:serv
+   ```
 
-Install the dependencies...
+En este punto, tienes un sitio web de SvelteLand - Svelte completamente funcional. Para obtener información adicional sobre cómo puede personalizar su sitio SvelteLand, consulte en [Svelte](https://svelte.dev/) y en [Bootstrap](https://getbootstrap.com/) ya que partimos de ello para la concepcion de [EngineLand](https://EngineLand.dev).
 
-```bash
-cd svelte-app
-npm install
-```
+## 🎓 Aprendiendo Svelte
 
-...then start [Rollup](https://rollupjs.org):
+Documentación completa para Svelte vive [Svelte](https://svelte.dev/)
+Repositorio para Svelte en [GitHub](https://github.com/sveltejs/svelte).
 
-```bash
-npm run dev
-```
+## 🎓 Aprendiendo Bootstrap
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Documentación completa para [Bootstrap](https://getbootstrap.com/).
 
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
+## ❗ Código de conducta
 
-If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
+Dedicamos mucho tiempo a construir una comunidad acogedora, diversa y segura. Esperamos que todos los participantes en la comunidad de SvelteLand cumplan con nuestro [** Código de Conducta **](https://EngineLand.dev/conducta/). Por favor leelo. Por favor síguelo. En la comunidad de SvelteLand, trabajamos duro para construirnos y crear cosas increíbles juntos. : muscle :: purple_heart:
 
-## Building and running in production mode
+## 🤝 Cómo contribuir
 
-To create an optimised version of the app:
+Ya sea que nos esté ayudando a corregir errores, mejorar los documentos o correr la voz, ¡nos encantaría contar con usted como parte de nuestra comunidad en SvelteLand! : muscle :: purple_heart:
 
-```bash
-npm run build
-```
+Consulte nuestra [** Guía de contribución **](https://EngineLand.dev/contribuyendo/como-contribuir/) para obtener ideas sobre cómo contribuir y configurar los pasos para que nuestros repositorios funcionen en su máquina local.
 
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+### Una nota sobre cómo está organizado este repositorio
 
+Este repositorio es un [Unico Repositorio](https://github.com/EngineLand/SvelteLand). Esto significa que no tenemos por el momento [paquetes](/packages) separados.
 
-## Single-page app mode
+### Contribuyendo a SvelteLand
 
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
+Actualmente solo aceptamos correcciones de errores para SvelteLand.
 
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
+## Licencia
 
-```js
-"start": "sirv public --single"
-```
+Licenciado bajo la licencia [MIT License](./Licence).
 
-## Using TypeScript
+## 💜 Gracias
 
-This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
-
-```bash
-node scripts/setupTypeScript.js
-```
-
-Or remove the script via:
-
-```bash
-rm scripts/setupTypeScript.js
-```
-
-## Deploying to the web
-
-### With [Vercel](https://vercel.com)
-
-Install `vercel` if you haven't already:
-
-```bash
-npm install -g vercel
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-vercel deploy --name my-project
-```
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
-```
+Gracias a todo el Team que forma parte de este Proyecto pues sin ellos no podriamos seguir.
+Gracias a [Netlify](https://www.netlify.com/) por hospedarnos [EngineLand.dev](https://EngineLand.dev).

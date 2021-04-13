@@ -1,7 +1,7 @@
 {
-  "name": "synergia-start-land",
+  "name": "svelte-land",
   "version": "1.0.0",
-  "description": "Synergia - Svelte - Bootstrap.",
+  "description": "Svelte - Bootstrap - EngineLand.",
   "author": "@Engin3. <EngineLand.dev@gmail.com> (https://EngineLand.dev)",
   "private": true,
   "scripts": {

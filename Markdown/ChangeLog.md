@@ -2,7 +2,7 @@
 	<img src="https://enginelandteam.github.io/dist/assets/image/EL.png" width="40%"/>
 </p>
 
-# SYNERGIA START LAND - SVELTE - WEBPACK - BOOTSTRAP
+# SVELTELAND - WEBPACK - BOOTSTRAP
 
 ## Init
 
@@ -361,6 +361,36 @@ git commit -m "WebPack DEV"
 npm run dev
 
 git commit -m "Bootstrap"
+
+```
+
+<!-- Command -->
+
+---
+
+## Remote
+
+<!-- Acciones -->
+
+### Acciones
+
+- Personalizamos parametros en package.json (SvelteLand)
+- Personalizamos parametros en src/main.js (SvelteLand)
+- Personalizamos readme.md (SvelteLand)
+- Configuramos .gitignore para solo subir archivos necesarios
+- Vinculamos con repositorio de GitHub
+- Sincronizamos con repositorio de GitHub
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+git remote add origin https://github.com/EngineLand/SvelteLand337.git
+
+git commit -m "Remote"
 
 ```
 
