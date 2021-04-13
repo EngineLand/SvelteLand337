@@ -1,8 +1,9 @@
 {
-  "name": "svelte-app",
+  "name": "synergia-start-land",
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "init": "webpack --config ./webpack/webpack.init.js",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"

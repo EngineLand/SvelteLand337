@@ -219,3 +219,29 @@ git commit -m "Dependencias Complementarias"
 <!-- Command -->
 
 ---
+
+## WebPack.Init
+
+<!-- Acciones -->
+
+### Acciones
+
+- Lncluimos el comando vinculado a webpack.init en package.json
+- Adaptamos Webpack/Webpack.init como la primera opcion de copiado de dependencias a public
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+npm run init
+
+git commit -m "WebPack.Init"
+
+```
+
+<!-- Command -->
+
+---
