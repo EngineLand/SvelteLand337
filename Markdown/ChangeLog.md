@@ -296,7 +296,6 @@ git commit -m "Uninstall Rollup"
 
 ### Acciones
 
-- Incluimos el comando vinculado a webpack.dev en package.json
 - Incluimos el comando vinculado a webpack.config en package.json
 - Adaptamos webpack.config.js
 - Reorganizamos archivos y carpetas
@@ -309,6 +308,32 @@ git commit -m "Uninstall Rollup"
 
 ```
 git commit -m "Webpack Config"
+
+```
+
+<!-- Command -->
+
+---
+
+## WebPack DEV
+
+<!-- Acciones -->
+
+### Acciones
+
+- Incluimos el comando vinculado a webpack.dev en package.json
+- Adaptamos WEBPACK.dev para uso en desarrollo
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+npm run dev
+
+git commit -m "WebPack DEV"
 
 ```
 
