@@ -122,9 +122,12 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: paths.public.assets, to: paths.dist.assets },
-        { from: paths.public.build + "css", to: paths.dist.css },
-        { from: paths.public.build + "js", to: paths.dist.js },
-        { from: paths.public.build + "icons", to: paths.dist.icons },
+        { from: paths.public.build, to: paths.dist.build },
+
+        // { from: paths.public.build + "css", to: paths.dist.css },
+        // { from: paths.public.build + "js", to: paths.dist.js },
+        // { from: paths.public.build + "icons", to: paths.dist.icons },
+
         // { from: paths.public.css, to: paths.dist.css },
         // { from: paths.public.js, to: paths.dist.js },
         // { from: paths.public.img, to: paths.dist.img },

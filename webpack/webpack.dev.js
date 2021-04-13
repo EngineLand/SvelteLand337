@@ -87,14 +87,14 @@ module.exports = {
           loader: "sass-loader",
         },
       },
-      {
-        test: /\.html$/i,
-        loader: "html-loader",
-        options: {
-          attributes: false,
-          minimize: false,
-        },
-      },
+      // {
+      //   test: /\.html$/i,
+      //   loader: "html-loader",
+      //   options: {
+      //     attributes: false,
+      //     minimize: false,
+      //   },
+      // },
       {
         test: /\.svelte$/,
         exclude: /node_modules/,
@@ -122,8 +122,8 @@ module.exports = {
         { from: paths.public.build + "css", to: paths.dist.css },
         { from: paths.public.build + "js", to: paths.dist.js },
         { from: paths.public.build + "icons", to: paths.dist.icons },
-        { from: paths.public.build + "img", to: paths.dist.img },
-        { from: paths.public.build + "vendors", to: paths.dist.vendors },
+        // { from: paths.public.build + "img", to: paths.dist.img },
+        // { from: paths.public.build + "vendors", to: paths.dist.vendors },
 
         // { from: paths.public.build + "img", to: paths.dist.img },
         // { from: paths.src.build, to: paths.dist.build },

@@ -340,3 +340,30 @@ git commit -m "WebPack DEV"
 <!-- Command -->
 
 ---
+
+## Bootstrap
+
+<!-- Acciones -->
+
+### Acciones
+
+- Optimizamos webpack/webpack.dev por algunos bugs
+- Modificamos webpack.config por algunos bugs
+- Ejecutamos Npm run dev para migrar todos los archivos
+- Adaptamos Public/Index y vinculamos con dependencias BOOTSTRAP
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+npm run dev
+
+git commit -m "Bootstrap"
+
+```
+
+<!-- Command -->
+
+---
