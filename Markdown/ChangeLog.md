@@ -144,3 +144,78 @@ git commit -m "Dependencias WebPack"
 <!-- Command -->
 
 ---
+
+## Dependencias Complementarias
+
+<!-- Acciones -->
+
+### Acciones
+
+- Instalamos dependencias html
+
+**_Core_**
+
+- bootstrap
+- jquery
+- @popperjs/core
+- popper.js
+- themify-icons
+- @fortawesome/fontawesome-free
+
+**_Loader_**
+
+- Css-loader
+- Style-loader
+
+- url-loaderfile-loader.\_
+- sass-loader
+- node-sass
+- file-loader
+
+**_Plugin_**
+
+- extract-text-webpack-plugin
+- mini-css-extract-plugin
+- html-webpack-plugin
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+npm i -D bootstrap@latest
+npm i -D jquery@latest
+npm i -D @popperjs/core
+npm i -D popper.js
+npm i -D @icon/themify-icons
+npm i -D @fortawesome/fontawesome-free
+*npm i -D bootstrap@latest jquery@latest @popperjs/core popper.js @icon/themify-icons @fortawesome/fontawesome-free*
+
+npm i -D html-loader
+npm i -D css-loader
+npm i -D style-loader
+npm i -D node-sass
+npm i -D sass-loader
+*npm i -D html-loader css-loader style-loader node-sass sass-loader*
+
+npm i -D html-webpack-plugin
+npm i -D mini-css-extract-plugin
+npm i -D file-loader
+npm i -D babel-minify-webpack-plugin
+npm i -D copy-webpack-plugin
+npm i -D optimize-css-assets-webpack-plugin
+npm i -D clean-webpack-plugin
+*npm i -D html-webpack-plugin mini-css-extract-plugin file-loader babel-minify-webpack-plugin copy-webpack-plugin optimize-css-assets-webpack-plugin clean-webpack-plugin*
+
+*npm i -D html-webpack-plugin bootstrap@latest @fortawesome/fontawesome-free css-loader sass-loader node-sass style-loader
+mini-css-extract-plugin file-loader babel-minify-webpack-plugin copy-webpack-plugin optimize-css-assets-webpack-plugin clean-webpack-plugin*
+
+git commit -m "Dependencias Complementarias"
+
+```
+
+<!-- Command -->
+
+---
