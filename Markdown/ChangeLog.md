@@ -245,3 +245,47 @@ git commit -m "WebPack.Init"
 <!-- Command -->
 
 ---
+
+## Uninstall Rollup
+
+<!-- Acciones -->
+
+### Acciones
+
+- Retiramos dependencias de rollup
+- Eliminamos archivo de configuracion de rollup
+
+**Rollup**
+rollup
+rollup-plugin-svelte
+@rollup/plugin-commonjs
+@rollup/plugin-node-resolve
+rollup-plugin-livereload
+rollup-plugin-terser
+rollup-plugin-css-only
+sirv-cli
+
+<!-- Acciones -->
+
+<!-- Command -->
+
+### Command
+
+```
+npm uninstall rollup
+npm uninstall rollup-plugin-svelte
+npm uninstall @rollup/plugin-commonjs
+npm uninstall @rollup/plugin-node-resolve
+npm uninstall rollup-plugin-livereload
+npm uninstall rollup-plugin-terser
+npm uninstall rollup-plugin-css-only
+npm uninstall sirv-cli
+*npm uninstall rollup rollup-plugin-svelte @rollup/plugin-commonjs @rollup/plugin-node-resolve rollup-plugin-livereload rollup-plugin-terser rollup-plugin-css-only sirv-cli*
+
+git commit -m "Uninstall Rollup"
+
+```
+
+<!-- Command -->
+
+---
